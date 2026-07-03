@@ -5,8 +5,8 @@ import { apps } from './data/apps.js'
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#0f2b22]">
-      <main className="flex-1 w-full max-w-5xl mx-auto px-4">
+    <div className="min-h-screen flex flex-col bg-[#0f2b22] pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+      <main className="flex-1 w-full max-w-5xl mx-auto pl-[max(1rem,env(safe-area-inset-left))] pr-[max(1rem,env(safe-area-inset-right))]">
         <Hero />
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-6 pb-16">
           {apps.map((app) => (

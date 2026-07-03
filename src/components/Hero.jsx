@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <header className="text-center py-16 px-4">
+    <header className="text-center py-12 sm:py-16">
       <span className="inline-flex items-center rounded-full border border-[rgba(212,175,55,0.25)] bg-[#d4af37]/10 px-4 py-1.5 text-xs font-medium uppercase tracking-wide text-[#d4af37]">
         hub de aplicaciones
       </span>
